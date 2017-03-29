@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.dronnis" version="0.0.1" name="Dronnis Repository" provider-name="Dronnis">
+	<requires>
+		<import addon="xbmc.addon" version="13.0.0"/>
+    </requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Dronnis Repository</summary>
+		<summary lang="ru">Репозиторий Dronnis</summary>
+		<description lang="en">Addon repository by Dronnis</description>
+		<description lang="ru">Репозиторий дополнений Dronnis</description>
+		<disclaimer>Add-ons for home usage in Kodi</disclaimer>
+		<platform>all</platform>
+	</extension>
+	<extension point="xbmc.addon.repository" name="Dronnis Kodi Add-ons Repository">
+		<info compressed="false">https://raw.github.com/dandygithub/kodi/master/addons/addons.xml</info>
+		<checksum>https://raw.github.com/dandygithub/kodi/master/addons/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/dandygithub/kodi/master/addons/zip/</datadir>
+	</extension>
+</addon>
