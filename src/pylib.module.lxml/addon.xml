@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="pylib.module.lxml" name="lxml" version="3.7.3" provider-name="lxml dev team">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <language></language>
+        <summary lang="en">Python helper module</summary>
+        <description lang="en">Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.</description>
+        <license>UNKNOWN</license>
+        <platform>all</platform>
+        <website>http://lxml.de/</website>
+    </extension>
+</addon>
