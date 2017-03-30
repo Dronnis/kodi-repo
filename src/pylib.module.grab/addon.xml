@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="pylib.module.grab" name="grab" version="0.6.35" provider-name="Gregory Petukhov">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="pylib.module.weblib" version="0.1.24"/>
+		<import addon="pylib.module.six" version="1.10.0"/>
+		<import addon="pylib.module.user_agent" version="0.1.8"/>
+		<import addon="pylib.module.lxml" version="3.7.3"/>
+		<import addon="pylib.module.pycurl" version="7.43.0"/>
+		<import addon="pylib.module.defusedxml" version="0.5.0"/>
+		<import addon="pylib.module.urllib3" version="1.20.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <language></language>
+        <summary lang="en">Python helper module</summary>
+        <description lang="en">Web Scraping Framework</description>
+        <license>MIT</license>
+        <platform>all</platform>
+    </extension>
+</addon>
