@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="pylib.module.user_agent" name="user_agent" version="0.1.8" provider-name="jamb0ss, Gregory Petukhov">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="pylib.module.six" version="1.10.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <language></language>
+        <summary lang="en">Python helper module</summary>
+        <description lang="en">User-Agent generator</description>
+        <license>MIT</license>
+        <platform>all</platform>
+    </extension>
+</addon>
