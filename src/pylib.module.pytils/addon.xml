@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="pylib.module.pytils" name="pytils" version="3.7.3" provider-name="Yury Yurevich">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <language></language>
+        <summary lang="en">Python helper module</summary>
+        <description lang="en">Simple tools for processing strings in russian (choose proper form for plurals, in-words representation of numerals, dates in russian without locales, transliteration, etc)</description>
+        <license>MIT</license>
+        <platform>all</platform>
+        <website>https://github.com/j2a/pytils/</website>
+    </extension>
+</addon>
