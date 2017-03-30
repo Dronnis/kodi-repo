@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="pylib.module.six" name="six" version="1.10.0" provider-name="Benjamin Peterson">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <language></language>
+        <summary lang="en">Python helper module</summary>
+        <description lang="en">Python 2 and 3 compatibility utilities</description>
+        <license>MIT</license>
+        <platform>all</platform>
+        <website>http://pypi.python.org/pypi/six/</website>
+    </extension>
+</addon>
